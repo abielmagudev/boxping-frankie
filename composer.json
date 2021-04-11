@@ -1,0 +1,21 @@
+{
+    "name": "abielmagu/boxping-frankie",
+    "description": "Boxping frankie version",
+    "type": "application",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\" : "controllers/",
+            "Traits\\" : "traits/",
+            "Models\\" : "models/",
+            "Views\\" : "views/",
+            "Layers\\" : "layers/",
+            "System\\Core\\" : "system/core/",
+            "System\\Interfaces\\" : "system/interfaces/"
+        }
+    },
+    "require": {
+        "ddeboer/data-import": "^0.20.0",
+        "league/csv": "^8"
+    }
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'barcode128';
+    src: url('https://app.lapotosinaexpress.com/assets/fonts/code128.ttf');
+}
+@font-face {
+    font-family: 'barcode39';
+    src: url('https://app.lapotosinaexpress.com/assets/fonts/code39.ttf');
+}
+.table {
+    width: 100%;
+    /* table-layout:fixed; */
+}
+.table tr {
+    border-bottom: 1px solid #ddd;
+}
+.table tr td {
+    padding: 0.05in;
+}
+.table tr td:first-child {
+    vertical-align: top;
+}
+.pagebreak { 
+    page-break-before: always;
+}
+.bg-light {
+    background-color: whitesmoke;
+}
+.font-bold {
+    font-weight: bold;
+}
+.text-center {
+    text-align: center;
+}
+.barcode {
+    font-size: 32pt;
+}
+.barcode128 {
+    font-family: 'barcode128';
+}
+.barcode39 {
+    font-family: 'barcode39';
+}
+.barcode39_google {
+    font-family: 'Libre Barcode 39', cursive; /*  */
+}
+
+@media print { 
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+} 
